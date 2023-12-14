@@ -1,0 +1,7 @@
+name: workflow name                     # workflow name
+on: push                                # Action
+jobs:
+  job1:                                 # mustbe unique
+  runs-on: ubuntu-latest                # type of OS on runner
+  steps:
+    
