@@ -1,0 +1,12 @@
+name: workflow name                     # workflow name
+on: push                                # Action
+jobs:
+  job1:                                 # mustbe unique
+  runs-on: ubuntu-latest                # type of OS on runner
+  steps:
+    -name: step 1 name
+     run:  echo "print any thing"       # this is script
+    #-name: step 2 name 
+    # uses: actions/checkout@v4          # this is action
+     # the name is optional
+     
